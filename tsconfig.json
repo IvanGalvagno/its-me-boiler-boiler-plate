@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["es6", "dom", "es2017", "esnext.asynciterable", "es2020", "ES2023"],
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ]
+    },
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "removeComments": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "tests", "commands", "uploads"]
+}
